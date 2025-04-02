@@ -2,6 +2,6 @@ services:
   python-app:
     build: .
     volumes:
-      - .:/app
+      - ./app:/app
     stdin_open: true
     tty: true 
